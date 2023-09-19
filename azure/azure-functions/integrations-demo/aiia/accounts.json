@@ -1,0 +1,48 @@
+{
+    "accounts": [
+        {
+            "accountProvider": {
+                "id": "DemoBank",
+                "name": "Demo Bank"
+            },
+            "available": {
+                "currency": "DKK",
+                "value": 11603.12
+            },
+            "availableBalance": 11603.12,
+            "booked": {
+                "currency": "DKK",
+                "value": 11603.12
+            },
+            "bookedBalance": 11603.12,
+            "currency": "DKK",
+            "destinationId": "63b86e0a-726f-4d08-9b21-1dee5c5bfb1b",
+            "features": {
+                "paymentFrom": true,
+                "paymentTo": true,
+                "psdPaymentAccount": true,
+                "queryable": true
+            },
+            "id": "MjI2ZTk2ODgtNWU4MC00ZjIxLWI2NTUtNmFjYWEzMWYxOGYxfERlbW9CYW5rfHhsa19IdGFnOTBvT3NNclRXeXFISTFtQUFrYW1jVkJaWDA2X3EtVS1XQm8uMjMxNGM5MTYzMjEw",
+            "isOrphaned": false,
+            "lastSynchronized": "2023-08-04T09:01:56.203445800Z",
+            "name": "Checking Account",
+            "number": {
+                "bban": "0001-204386946",
+                "bbanParsed": {
+                    "accountNumber": "204386946",
+                    "bankCode": "0001"
+                },
+                "bbanType": "DK",
+                "card": null,
+                "iban": "DK9200001204386946"
+            },
+            "owner": "Christian Thomsen",
+            "syncStatus": "Finished",
+            "type": "Consumption",
+            "verifiedForPayments": true,
+            "groupId": null,
+            "groupName": null
+        }
+    ]
+}

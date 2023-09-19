@@ -1,0 +1,592 @@
+{
+    "collection": [
+        {
+            "customerNumber": 1,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": -9375000.0,
+            "dueAmount": 0.0,
+            "name": "Rengøring en Mads ApS",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-03-10T13:28:01Z",
+            "contacts": "https://restapi.e-conomic.com/customers/1/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/1/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/1/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/1/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/1",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/1",
+                "self": "https://restapi.e-conomic.com/customers/1/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/1/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/1/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/1/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/1/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/1"
+        },
+        {
+            "customerNumber": 2,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 0.0,
+            "dueAmount": 0.0,
+            "name": "Kenneths Kantiner ApS",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-03-10T13:28:14Z",
+            "contacts": "https://restapi.e-conomic.com/customers/2/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/2/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/2/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/2/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/2",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/2",
+                "self": "https://restapi.e-conomic.com/customers/2/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/2/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/2/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/2/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/2/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/2"
+        },
+        {
+            "customerNumber": 3,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 2,
+                "self": "https://restapi.e-conomic.com/payment-terms/2"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 6875.0,
+            "dueAmount": 6875.0,
+            "city": "Reykjavik",
+            "country": "Iceland",
+            "name": "Laksen",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-16T13:10:15Z",
+            "contacts": "https://restapi.e-conomic.com/customers/3/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/3/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/3/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/3/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/3",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/3",
+                "self": "https://restapi.e-conomic.com/customers/3/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/3/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/3/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/3/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/3/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/3"
+        },
+        {
+            "customerNumber": 4,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 375.0,
+            "dueAmount": 375.0,
+            "city": "Oslo",
+            "country": "Norway",
+            "name": "Fiskehuset",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-16T13:11:10Z",
+            "contacts": "https://restapi.e-conomic.com/customers/4/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/4/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/4/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/4/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/4",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/4",
+                "self": "https://restapi.e-conomic.com/customers/4/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/4/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/4/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/4/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/4/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/4"
+        },
+        {
+            "customerNumber": 5,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 0.0,
+            "dueAmount": 0.0,
+            "city": "London",
+            "country": "England",
+            "name": "Arsenal",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-20T10:53:00Z",
+            "contacts": "https://restapi.e-conomic.com/customers/5/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/5/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/5/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/5/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/5",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/5",
+                "self": "https://restapi.e-conomic.com/customers/5/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/5/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/5/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/5/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/5/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/5"
+        },
+        {
+            "customerNumber": 6,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 6250.0,
+            "dueAmount": 6250.0,
+            "city": "Birmingham",
+            "country": "England",
+            "name": "Aston Villa",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-20T10:53:22Z",
+            "contacts": "https://restapi.e-conomic.com/customers/6/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/6/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/6/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/6/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/6",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/6",
+                "self": "https://restapi.e-conomic.com/customers/6/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/6/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/6/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/6/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/6/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/6"
+        },
+        {
+            "customerNumber": 7,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 0.0,
+            "dueAmount": 0.0,
+            "city": "London",
+            "country": "England",
+            "name": "Chelsea",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-20T10:53:29Z",
+            "contacts": "https://restapi.e-conomic.com/customers/7/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/7/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/7/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/7/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/7",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/7",
+                "self": "https://restapi.e-conomic.com/customers/7/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/7/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/7/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/7/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/7/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/7"
+        },
+        {
+            "customerNumber": 8,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 0.0,
+            "dueAmount": 0.0,
+            "city": "Manchester",
+            "country": "England",
+            "name": "Manchester United",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-20T10:53:35Z",
+            "contacts": "https://restapi.e-conomic.com/customers/8/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/8/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/8/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/8/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/8",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/8",
+                "self": "https://restapi.e-conomic.com/customers/8/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/8/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/8/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/8/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/8/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/8"
+        },
+        {
+            "customerNumber": 9,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 0.0,
+            "dueAmount": 0.0,
+            "city": "Manchester",
+            "country": "England",
+            "name": "Manchester City",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-20T10:53:41Z",
+            "contacts": "https://restapi.e-conomic.com/customers/9/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/9/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/9/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/9/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/9",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/9",
+                "self": "https://restapi.e-conomic.com/customers/9/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/9/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/9/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/9/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/9/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/9"
+        },
+        {
+            "customerNumber": 10,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 2500.0,
+            "dueAmount": 2500.0,
+            "city": "Liverpool",
+            "country": "England",
+            "name": "Liverpool",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-20T10:53:52Z",
+            "contacts": "https://restapi.e-conomic.com/customers/10/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/10/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/10/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/10/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/10",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/10",
+                "self": "https://restapi.e-conomic.com/customers/10/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/10/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/10/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/10/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/10/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/10"
+        },
+        {
+            "customerNumber": 11,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 3125.0,
+            "dueAmount": 3125.0,
+            "city": "London",
+            "country": "England",
+            "name": "Tottenham",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-20T10:53:58Z",
+            "contacts": "https://restapi.e-conomic.com/customers/11/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/11/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/11/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/11/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/11",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/11",
+                "self": "https://restapi.e-conomic.com/customers/11/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/11/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/11/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/11/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/11/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/11"
+        },
+        {
+            "customerNumber": 12,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 0.0,
+            "dueAmount": 0.0,
+            "city": "Madrid",
+            "country": "Spain",
+            "name": "Real Madrid",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-20T10:54:04Z",
+            "contacts": "https://restapi.e-conomic.com/customers/12/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/12/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/12/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/12/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/12",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/12",
+                "self": "https://restapi.e-conomic.com/customers/12/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/12/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/12/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/12/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/12/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/12"
+        },
+        {
+            "customerNumber": 13,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 8750.0,
+            "dueAmount": 8750.0,
+            "city": "Milano",
+            "country": "Italy",
+            "name": "AC Milan",
+            "zip": "302",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-20T10:52:35Z",
+            "contacts": "https://restapi.e-conomic.com/customers/13/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/13/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/13/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/13/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/13",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/13",
+                "self": "https://restapi.e-conomic.com/customers/13/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/13/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/13/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/13/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/13/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/13"
+        },
+        {
+            "customerNumber": 14,
+            "currency": "DKK",
+            "paymentTerms": {
+                "paymentTermsNumber": 1,
+                "self": "https://restapi.e-conomic.com/payment-terms/1"
+            },
+            "customerGroup": {
+                "customerGroupNumber": 1,
+                "self": "https://restapi.e-conomic.com/customer-groups/1"
+            },
+            "balance": 0.0,
+            "dueAmount": 0.0,
+            "city": "Paris",
+            "country": "France",
+            "name": "PSG",
+            "vatZone": {
+                "vatZoneNumber": 1,
+                "self": "https://restapi.e-conomic.com/vat-zones/1"
+            },
+            "lastUpdated": "2022-09-20T10:52:46Z",
+            "contacts": "https://restapi.e-conomic.com/customers/14/contacts",
+            "templates": {
+                "invoice": "https://restapi.e-conomic.com/customers/14/templates/invoice",
+                "invoiceLine": "https://restapi.e-conomic.com/customers/14/templates/invoiceline",
+                "self": "https://restapi.e-conomic.com/customers/14/templates"
+            },
+            "totals": {
+                "drafts": "https://restapi.e-conomic.com/invoices/totals/drafts/customers/14",
+                "booked": "https://restapi.e-conomic.com/invoices/totals/booked/customers/14",
+                "self": "https://restapi.e-conomic.com/customers/14/totals"
+            },
+            "deliveryLocations": "https://restapi.e-conomic.com/customers/14/delivery-locations",
+            "invoices": {
+                "drafts": "https://restapi.e-conomic.com/customers/14/invoices/drafts",
+                "booked": "https://restapi.e-conomic.com/customers/14/invoices/booked",
+                "self": "https://restapi.e-conomic.com/customers/14/invoices"
+            },
+            "eInvoicingDisabledByDefault": False,
+            "self": "https://restapi.e-conomic.com/customers/14"
+        }
+    ],
+    "pagination": {
+        "maxPageSizeAllowed": 1000,
+        "skipPages": 0,
+        "pageSize": 20,
+        "results": 14,
+        "resultsWithoutFilter": 14,
+        "firstPage": "https://restapi.e-conomic.com/customers?skippages=0&pagesize=20",
+        "lastPage": "https://restapi.e-conomic.com/customers?skippages=0&pagesize=20"
+    },
+    "metaData": {
+        "create": {
+            "description": "Create a new customer",
+            "href": "https://restapi.e-conomic.com/customers",
+            "httpMethod": "post"
+        }
+    },
+    "self": "https://restapi.e-conomic.com/customers"
+}
